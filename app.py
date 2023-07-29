@@ -21,7 +21,7 @@ def first():
     name = "Avinash Todwal" # write your name
     age = "44" # write your age
 
-    return render_template('index.html' , name = name , age = age)
+    return render_template('father.html' , name = name , age = age)
 
 # define the route to mother webpage
 @app.route("/mother")
@@ -30,7 +30,7 @@ def second():
     name = "Suman Todwal" # write your name
     age = "40" # write your age
 
-    return render_template('index.html' , name = name , age = age)
+    return render_template('mother.html' , name = name , age = age)
 
 
 # define the route to friends webpage
@@ -40,7 +40,7 @@ def third():
     name = "Radhey Shyam Todwal" # write your name
     age = "70" # write your age
 
-    return render_template('index.html' , name = name , age = age)
+    return render_template('friend.html' , name = name , age = age)
 
 
 # add other routes, if you want
